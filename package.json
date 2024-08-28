@@ -1,0 +1,41 @@
+{
+  "name": "sit725-2021-t2-prac8",
+  "version": "1.0.0",
+  "description": "sit 725 week 8 prac",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faithque/sit725-2021-t2-prac8.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Ruth Faith Wandabwa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faithque/sit725-2021-t2-prac8/issues"
+  },
+  "homepage": "https://github.com/faithque/sit725-2021-t2-prac8#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "express": "^4.19.2",
+    "mocha": "^10.7.3"
+  }
+}
